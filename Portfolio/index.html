@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dasom Kim">
+    <meta name="description" content="Dasom Kim's Portfolio Site">
+    <title>UX/UI Dasom Kim</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet" media="screen" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a class="navbar-brand hover-animation" href="index.html">
+                <img src="images/logo.png" alt="logo" height="45" width="46" class="logo-front" />
+                <img src="images/logo2.png" alt="back logo" height="45" width="69" class="logo-back" /></a>
+        </div>
+
+        <nav class="navbar navbar-expand-lg">
+            <ul>
+                <li class="nav-item"><a class="nav-link" href="#project">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="/resume.html">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about_me">About me</a></li>
+            </ul>
+        </nav> 
+
+    </header>
+    <section class="presentation">
+        <div class="introuction">
+            <div class="intro-text">
+                <h1>Dasom Kim is a Web Designer and UX/UI Designer based in Sandy, Utah.</h1>
+                <p>I value at Web & UX/UI design which is Professional, Passionate, and Proactive.
+                    Balance, Unite, and Perfection is my Motive. </p>
+            </div>
+        </div>
+        <div class="image-box">
+            <div class="content">
+                <img src="images/final2.png" alt="UI image" class="computer_image" /></div>
+        </div>
+
+    </section>
+
+    <div id="background"></div>
+
+    <section id="about_me" data-aos="fade-down">
+        <div class="dasom_image">
+            <img src="images/brushimage.png" alt="dasom illustrator" />
+        </div>
+
+        <div class="intro_self">
+            <h1>THIS IS DASOM KIM</h1>
+
+            <p>
+                To shortly introduce myself, I am a skilled and results-driven individual
+                who is able to function well in fastpace and deadline-driven environments.
+                I have had the opportunities to create various designs such as magazine,
+                book cover, icon set, app layout (UI Design), etc., and I have done my best
+                to make all designs creative and innovative.<br><br>
+                I am adept at working with all
+                Adobe software tools, Illustrator, Photoshop, InDesign, XD, and Animate.
+                On top of my experience, I worked as a UI Designer in the team which
+                creates outdoor apps, and created an app design prototype to provide
+                them with a design layout.
+            </p>
+        </div>
+    </section>
+
+    <div id="project">
+        <h1>UX/UI Design Portfolio</h1>
+        <section class="card card1" data-aos="fade-right">
+            <img src="images/mockupFirst.png" alt="real estate">
+            <div>
+                <h3>Real Estate App</h3>
+                <ul>
+                   <li>User Interface Design of House Rental App.</li><br>
+                   <li>Mobile Platform: iOS</li>
+                   <li>Includes icon set, home, search, bookmark, message, and account page. </li>
+                   <li><b>Adobe XD, Illustrator, Photoshop</b></li>
+                </ul>
+                <a href="/pages/realEstate.html" class="btn">See more</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="images/dolphine.png" alt="dolphine" />
+            <div>
+                <h3>Creative Software Website</h3>
+                <ul>
+                    <li>User Interface Design of Design software Website.</li>
+                    <li>Website Platform</li>
+                    <li>Includes Home, Chatbot Design, Features, and Pricing page</li>
+                    <li><b>Adobe XD, Illustrator</b></li>
+
+                </ul>
+                <a href="/pages/" class="btn">See more</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+            <img src="images/graphicDesign/glass planet.png" alt="Gallery" />
+            <div>
+                <h3>Graphic Design Gallery</h3>
+                <ul>
+                    <li>Graphic Design works made in Adobe Illustrator and Photoshop.</li>
+                </ul>
+                <a href="/pages/gallery.html" class="btn">See more</a>
+            </div>
+        </section>
+    </div>
+
+    <div class="fcf-body">
+
+        <div id="fcf-form">
+        <h2>Contact us</h2>
+    
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            
+            <div class="fcf-form-group">
+                <label for="Name" class="fcf-label">Your name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Your email address</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Your message</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+            </div>  
+        </form>
+        </div>
+
+
+
+
+    <footer>
+        <span>Contact: yeonleeco@gmail.com</span>
+        <span>Copyright 2020 Designed and built by Dasom Kim</span>
+    </footer>
+
+
+
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script src="index.js">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000
+        });
+    </script>
+</body>
+
+</html>
